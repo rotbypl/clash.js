@@ -4,7 +4,7 @@
   
   Simple and object oriented wrapper package for the Clash of Clans API
   
-  [!(https://www.npmjs.com/package/clash.js)
+  [![Logo](https://www.npmjs.com/package/clash.js)
 
 </div>
 
