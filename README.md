@@ -8,4 +8,4 @@
 
   ### Implementation
   
-  > ```npm i clash.js```
+  - ```npm i clash.js```
