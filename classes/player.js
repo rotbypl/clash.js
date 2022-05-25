@@ -1,10 +1,4 @@
-let clan_roles = {
-    "leader": "Leader",
-    "coLeader": "Co-leader",
-    "admin": "Elder",
-    "member": "Member",
-    "not_member": "Clanless"
-}
+const { CLAN_ROLES } = require("../utilities/constants.js");
 
 class Player {
     #player_name;
@@ -57,7 +51,7 @@ class Player {
         this.#clan_name = resolved_object.clan.name;
         this.#clan_tag = resolved_object.clan.tag;
         this.#clan_level = resolved_object.clan.clanLevel;
-        this.#clan_role = clan_roles[resolved_object.role];
+        this.#clan_role = CLAN_ROLES[resolved_object.role];
         this.#clan_badge_urls = resolved_object.clan.badgeUrls;
         this.#war_preference = resolved_object.warPreference;
         this.#achievements = resolved_object.achievements;
