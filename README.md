@@ -3,6 +3,8 @@
   ### clash.js
   
   Simple and object oriented wrapper package for the Clash of Clans API
+  
+  ![npm](https://img.shields.io/npm/v/clash.js)
 
 </div>
 
