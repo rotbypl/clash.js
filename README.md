@@ -11,7 +11,7 @@
 ### Implementation
   
 - ```npm i clash.js```
-- requires [Node.js](https://nodejs.org/en/) version 14.0 or newer
+- requires [Node.js](https://nodejs.org/en/) version 14.0.0 or newer
   
 ### Example
   
