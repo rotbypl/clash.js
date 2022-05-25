@@ -3,6 +3,8 @@
   ### clash.js
   
   Simple and object oriented wrapper package for the Clash of Clans API
+  
+  [![Logo](https://img.shields.io/npm/v/clashofclans.js.svg?maxAge=3600)](https://www.npmjs.com/package/clashofclans.js)
 
 </div>
 
