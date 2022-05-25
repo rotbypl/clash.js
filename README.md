@@ -21,5 +21,5 @@ const client = new Client(process.env.COC_API_TOKEN);
   const player = await client.getPlayer("#ABC");
   
   console.log(`${player.getPlayerName} (${player.getPlayerTag})`);
-}
+})();
 ```
