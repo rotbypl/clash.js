@@ -11,8 +11,8 @@ class Client {
         this.#api_token = api_token;
     }
 
-    setToken (token) {
-        this.#api_token = token;
+    setToken (api_token) {
+        this.#api_token = api_token;
     }
 
     getPlayer (player_tag) {
