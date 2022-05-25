@@ -1,8 +1,6 @@
 <div align="center">
   
-  ### clash.js
-  
-  Simple [Node.js](https://nodejs.org/en/) object oriented wrapper package for the [Clash of Clans API](https://developer.clashofclans.com/#/)
+  **clash.js** is a simple [Node.js](https://nodejs.org/en/) object oriented wrapper package for the [Clash of Clans API](https://developer.clashofclans.com/#/)
   
   [![Npm](https://img.shields.io/npm/v/clash.js)](https://www.npmjs.com/package/clash.js)
   [![Discord](https://img.shields.io/discord/979167440711876609?color=%235865f2)](https://discord.gg/GrnUqrtvJN)
