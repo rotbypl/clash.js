@@ -4,7 +4,7 @@
   
   Simple and object oriented wrapper package for the Clash of Clans API
   
-  [![Logo](https://img.shields.io/npm/v/clash.js)](https://www.npmjs.com/package/clash.js)]
+  [![Logo](https://img.shields.io/npm/v/clash.js)](https://www.npmjs.com/package/clash.js)
 
 </div>
 
