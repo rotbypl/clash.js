@@ -9,3 +9,4 @@
   ### Implementation
   
   - ```npm i clash.js```
+  - requires node.js v14 or newer
