@@ -1,1 +1,1 @@
-
+npm i clash.js
