@@ -2,7 +2,7 @@
   
   ### clash.js
   
-  Simple and object oriented wrapper package for the Clash of Clans API
+  Simple [node.js](https://nodejs.org/en/) object oriented wrapper package for the [COC API](https://developer.clashofclans.com/#/)
   
   [![Logo](https://img.shields.io/npm/v/clash.js)](https://www.npmjs.com/package/clash.js)
 
