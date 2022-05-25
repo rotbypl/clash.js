@@ -1,10 +1,4 @@
-let clan_roles = {
-    "leader": "Leader",
-    "coLeader": "Co-leader",
-    "admin": "Elder",
-    "member": "Member",
-    "not_member": "Clanless"
-}
+const { CLAN_ROLES } = require("../utilities/constants.js");
 
 class Clan {
     #clan_name;
