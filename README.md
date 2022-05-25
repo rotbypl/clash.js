@@ -1,1 +1,1 @@
-npm i clash.js
+<center>npm i clash.js</center>
