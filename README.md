@@ -3,8 +3,6 @@
   ### clash.js
   
   Simple and object oriented wrapper package for the Clash of Clans API
-  
-  [![Logo]](https://www.npmjs.com/package/clash.js)
 
 </div>
 
