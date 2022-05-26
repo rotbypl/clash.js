@@ -9,7 +9,9 @@
 
 ### About
 
-  - **clash.js** is a simple [Node.js](https://nodejs.org/en/) object oriented wrapper package for the [Clash of Clans API](https://developer.clashofclans.com/#/)
+  - **clash.js** is a simple [Node.js](https://nodejs.org/en/) module that allows you to easily interact with the [Clash of Clans API](https://developer.clashofclans.com/#/)
+  - Object-oriented
+  - Predictable abstractions
 
 ### Implementation
   
