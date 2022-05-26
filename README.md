@@ -23,7 +23,7 @@ npm i clash.js
 ### Example
   
 ```js
-const { Client } = require("./clash.js");
+const { Client } = require("clash.js");
 const client = new Client(process.env.COC_API_TOKEN);
 
 (async () => {
