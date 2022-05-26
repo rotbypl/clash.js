@@ -14,7 +14,7 @@
 - ```npm i clash.js```
 - requires [Node.js](https://nodejs.org/en/) version 14.0.0 or newer
   
-### Example
+**Example**
   
 ```js
 const { Client } = require("./clash.js");
