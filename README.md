@@ -3,7 +3,7 @@
   ![Logo](https://developer.clashofclans.com/front-bg-small.d355db.jpg)
   
   [![Npm](https://img.shields.io/npm/v/clash.js)](https://www.npmjs.com/package/clash.js)
-  [![Discord](https://img.shields.io/discord/979167440711876609?color=%235865f2)](https://discord.gg/GrnUqrtvJN)
+  [![Downloads](![npm](https://img.shields.io/npm/dt/clash.js))](https://www.npmjs.com/package/clash.js)
 
 </div>
 
