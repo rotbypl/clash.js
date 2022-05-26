@@ -1,4 +1,5 @@
 const { CLAN_ROLES } = require("../utilities/constants.js");
+const { NoTokenError, InvalidAuthorizationError, InvalidArgumentError } = require("./errors.js");
 
 class Clan {
     #clan_name;
