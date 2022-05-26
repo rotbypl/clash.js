@@ -82,7 +82,7 @@ class Player {
         if (this.#league_icon_urls[size]) {
             return this.#league_icon_urls[size]
         } else {
-            throw new InvalidArgumentError(size + " not a valid argument")
+            throw new InvalidArgumentError("Given argument is not valid")
         }
     }
 
@@ -154,7 +154,7 @@ class Player {
         if (this.#clan_badge_urls[size]) {
             return this.#clan_badge_urls[size]
         } else {
-            throw new InvalidArgumentError(size + " not a valid argument");
+            throw new InvalidArgumentError("Given argument is not valid");
         }
     }
 
