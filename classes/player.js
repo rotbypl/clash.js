@@ -164,7 +164,7 @@ class Player {
     getAchievements () {
         let achievements = [];
         
-        for (let achievement in this.#achievements) {
+        for (let achievement of this.#achievements) {
             achievements.push({
                 name: achievement.name,
                 stars: achievement.stars,
@@ -181,7 +181,7 @@ class Player {
     getLabels () {
         let labels = [];
         
-        for (let label in this.#labels) {
+        for (let label of this.#labels) {
             labels.push({
                 name: label.name,
                 icon_urls: {
@@ -197,7 +197,7 @@ class Player {
     getHeroes () {
         let heroes = [];
         
-        for (let hero in this.#heroes) {
+        for (let hero of this.#heroes) {
             heroes.push({
                 name: hero.name,
                 level: hero.level,
@@ -212,7 +212,7 @@ class Player {
     getTroops () {
         let troops = [];
         
-        for (let troop in this.#troops) {
+        for (let troop of this.#troops) {
             troops.push({
                 name: troop.name,
                 level: troop.level,
@@ -227,7 +227,7 @@ class Player {
     getSpells () {
         let spells = [];
         
-        for (let spell in this.#spells) {
+        for (let spell of this.#spells) {
             spells.push({
                 name: spell.name,
                 level: spell.level,
