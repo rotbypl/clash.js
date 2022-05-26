@@ -1,5 +1,7 @@
 <div align="center">
   
+  [![Logo](https://developer.clashofclans.com/front-bg-small.d355db.jpg)]
+  
   **clash.js** is a simple [Node.js](https://nodejs.org/en/) object oriented wrapper package for the [Clash of Clans API](https://developer.clashofclans.com/#/)
   
   [![Npm](https://img.shields.io/npm/v/clash.js)](https://www.npmjs.com/package/clash.js)
