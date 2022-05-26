@@ -16,7 +16,7 @@
 
 ### Implementation
 requires [Node.js](https://nodejs.org/en/) version 14.0.0 or newer
-```bash
+```sh-session
 npm i clash.js
 ```
   
