@@ -21,6 +21,7 @@ class Client {
         let response;
 
         response = await axios.post("https://developer.clashofclans.com/api/apikey/list", {  }, { headers: { cookie } });
+        
         return response.data.keys;
     }
 
@@ -28,14 +29,14 @@ class Client {
         let response;
         
         response = await axios.post("https://developer.clashofclans.com/api/apikey/create", { cidrRanges: [ip_address], name: "clash.js.keys",  description: "key" }, { headers: { cookie } });
-        
         if (response.data.status.message != "ok") throw new ClientError("Trouble processing internal request");
-        return { key: response.data.key.key, id: response.data.key.id, name: response.data.key.name };
         
+        return { key: response.data.key.key, id: response.data.key.id, name: response.data.key.name };
     }
 
     async #deleteToken (cookie, token_id) {
         let response;
+        
         response = await axios.post("https://developer.clashofclans.com/api/apikey/revoke", { id: token_id }, { headers: { cookie } });
 
         return (response.data.status.message == "ok");
@@ -46,7 +47,7 @@ class Client {
     }
     
     async login (credentials) {
-        let response, generated_token;
+        let response, generated_token, ip_address, cookie;
         
         if (!(credentials.hasOwnProperty("email") && credentials.hasOwnProperty("password"))) throw new InvalidArgumentError("Given arguments are invalid");
 
@@ -55,11 +56,9 @@ class Client {
         this.#auto_renewal = true;
         
         response = await axios.get("https://api.ipify.org?format=json");
-        let ip_address = response.data.ip;
-        
+        ip_address = response.data.ip;
         response = await axios.post("https://developer.clashofclans.com/api/login", { email: credentials.email, password: credentials.password }).catch(error => {throw new InvalidArgumentError("Given arguments are not valid")});
-
-        let cookie = response.headers["set-cookie"][0];
+        cookie = response.headers["set-cookie"][0];
         
         try {
             generated_token = await this.#createToken(cookie, ip_address);
