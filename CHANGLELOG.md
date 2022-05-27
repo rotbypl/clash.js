@@ -12,7 +12,7 @@ Version 1.0.9 is the first **stable** build of the **clash.js** module
 
 **Player**
 
-- `Player` class
+- `Player(*resolved_object: Object)` class
 - `getName()` `Player` member function returns `name: string`
 - `getTag()` `Player` member function returns `tag: string`
 - `getExperience()` `Player` member function returns `experience: int`
@@ -45,7 +45,7 @@ Version 1.0.9 is the first **stable** build of the **clash.js** module
 
 **Clan**
 
-- `Clan` class
+- `Clan(*resolved_object: Object)` class
 - `getName()` `Clan` member function returns `name: string`
 - `getTag()` `Clan` member function returns `tag: string`
 - `getDescription()` `Clan` member function returns `description: string`
@@ -63,7 +63,7 @@ Version 1.0.9 is the first **stable** build of the **clash.js** module
 
 **WarInfo**
 
-- `WarInfo(*Object)` class
+- `WarInfo(*resolved_object: Object)` class
 - `getLeague()` `WarInfo` member function returns `league: string`
 - `isLogPublic()` `WarInfo` member function returns `boolean`
 - `getFrequency()` `WarInfo` member function returns `frequency: string`
