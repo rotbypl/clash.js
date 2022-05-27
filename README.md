@@ -23,7 +23,7 @@ npm i clash.js
 ### Example
   
 ```js
-const { Client } = require("clash.js");
+const { Client, toJSON } = require("clash.js");
 const client = new Client;
 
 (async () => {
