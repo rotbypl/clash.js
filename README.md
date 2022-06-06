@@ -13,6 +13,7 @@
   - Object-oriented
   - Predictable abstractions
   - 100% coverage of API (striving for)
+  - Typed
 
 ### Implementation
 Requires [Node.js](https://nodejs.org/en/) version 14.0.0 or newer
@@ -23,16 +24,19 @@ npm i clash.js
 ### Example
   
 ```js
-const { Client, toJSON } = require("clash.js");
-const client = new Client;
+const { Client } = require("clash.js");
 
-(async () => {
-    await client.login({ email: "myemail@gmail.com", password: "****" })
-    
-    const player = await client.getPlayer("#ABC");
-    const player_clan = await client.getClan(player.getClanTag());
-    const clan_contents = toJSON(player_clan);
+const client = new Client({
+    email: "youremailaddress@gmail.com",
+    password: "********",
+    retry: true, // whether you want the client to retry its requests upon ip change
+    parse: true // whether you want to have tag parameters parsed for discrepancies
+});
 
-    console.log(clan_contents);
-})();
+client.login(async () => {
+    let player = await client.getPlayer("abc123"); // -> "#ABC123"
+    let player_clan = await player.getClan();
+
+    console.log(player_clan.getName());
+});
 ```
