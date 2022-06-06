@@ -16,7 +16,7 @@
   - Typed
 
 ### Implementation
-Requires [Node.js](https://nodejs.org/en/) version 14.0.0 or newer
+Requires [Node.js](https://nodejs.org/en/) version 16 or newer
 ```sh-session
 npm i clash.js
 ```
